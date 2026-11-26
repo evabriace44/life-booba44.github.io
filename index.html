@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Booba Life — parcours musical d'un des rappeurs les plus influents de France.">
+  <title>Booba Life</title>
+  <style>
+    :root { --bg:#080808; --card:#151515; --text:#f5f5f5; --muted:#aaa; --gold:#e8c36a; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, Arial, sans-serif; background:radial-gradient(circle at top, #242424 0, var(--bg) 55%); color:var(--text); }
+    header { min-height:78vh; display:grid; place-content:center; text-align:center; padding:2rem; }
+    h1 { margin:0; font-size:clamp(3.5rem,12vw,9rem); line-height:.85; letter-spacing:-.08em; text-transform:uppercase; }
+    h1 span { color:var(--gold); }
+    header p { max-width:620px; margin:1.5rem auto 0; color:var(--muted); line-height:1.7; }
+    main { max-width:1100px; margin:auto; padding:2rem; }
+    h2 { margin:0 0 1.5rem; font-size:2rem; }
+    .albums { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:1.25rem; }
+    article { overflow:hidden; border:1px solid #292929; border-radius:18px; background:var(--card); transition:.25s ease; }
+    article:hover { transform:translateY(-6px); border-color:#777; }
+    .cover { aspect-ratio:1; display:grid; place-items:center; background:linear-gradient(135deg,#343434,#0b0b0b); }
+    .cover strong { font-size:3rem; color:var(--gold); }
+    .info { padding:1.1rem; }
+    .info h3 { margin:0 0 .35rem; }
+    .info p { margin:0; color:var(--muted); }
+    footer { text-align:center; color:#777; padding:3rem 1rem; font-size:.85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Booba<br><span>Life</span></h1>
+    <p>Une sélection visuelle des albums emblématiques de Booba, réunit dans un univers sombre et doré.</p>
+  </header>
+  <main>
+    <h2>Discographie sélectionnée</h2>
+    <section class="albums">
+      <article><div class="cover"><strong>00</strong></div><div class="info"><h3>Tout Terrain</h3><p>Album · 2004</p></div></article>
+      <article><div class="cover"><strong>01</strong></div><div class="info"><h3>Ouest Side</h3><p>Album · 2006</p></div></article>
+      <article><div class="cover"><strong>02</strong></div><div class="info"><h3>Autopsie</h3><p>Série · 2005–2017</p></div></article>
+      <article><div class="cover"><strong>03</strong></div><div class="info"><h3>Panthéon</h3><p>Album · 2008</p></div></article>
+      <article><div class="cover"><strong>04</strong></div><div class="info"><h3>Futur</h3><p>Album · 2012</p></div></article>
+      <article><div class="cover"><strong>05</strong></div><div class="info"><h3>Trône</h3><p>Album · 2017</p></div></article>
+      <article><div class="cover"><strong>06</strong></div><div class="info"><h3>Ultra</h3><p>Album · 2021</p></div></article>
+      <article><div class="cover"><strong>07</strong></div><div class="info"><h3>Ad vitam æternam</h3><p>Album · 2024</p></div></article>
+    </section>
+  </main>
+  <footer>Site hommage non officiel · Booba Life · Aucun audio protégé n'est hébergé ici</footer>
+</body>
+</html>
