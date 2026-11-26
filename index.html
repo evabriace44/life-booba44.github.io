@@ -18,8 +18,8 @@
     .albums { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:1.25rem; }
     article { overflow:hidden; border:1px solid #292929; border-radius:18px; background:var(--card); transition:.25s ease; }
     article:hover { transform:translateY(-6px); border-color:#777; }
-    .cover { aspect-ratio:1; display:grid; place-items:center; background:linear-gradient(135deg,#343434,#0b0b0b); }
-    .cover strong { font-size:3rem; color:var(--gold); }
+    .cover { aspect-ratio:1; display:grid; place-items:center; background:linear-gradient(135deg,#343434,#0b0b0b); padding:1rem; text-align:center; }
+    .cover strong { font-size:clamp(1.5rem,5vw,3rem); color:var(--gold); }
     .info { padding:1.1rem; }
     .info h3 { margin:0 0 .35rem; }
     .info p { margin:0; color:var(--muted); }
@@ -34,14 +34,14 @@
   <main>
     <h2>Discographie sélectionnée</h2>
     <section class="albums">
-      <article><div class="cover"><strong>00</strong></div><div class="info"><h3>Tout Terrain</h3><p>Album · 2004</p></div></article>
-      <article><div class="cover"><strong>01</strong></div><div class="info"><h3>Ouest Side</h3><p>Album · 2006</p></div></article>
-      <article><div class="cover"><strong>02</strong></div><div class="info"><h3>Autopsie</h3><p>Série · 2005–2017</p></div></article>
-      <article><div class="cover"><strong>03</strong></div><div class="info"><h3>Panthéon</h3><p>Album · 2008</p></div></article>
-      <article><div class="cover"><strong>04</strong></div><div class="info"><h3>Futur</h3><p>Album · 2012</p></div></article>
-      <article><div class="cover"><strong>05</strong></div><div class="info"><h3>Trône</h3><p>Album · 2017</p></div></article>
-      <article><div class="cover"><strong>06</strong></div><div class="info"><h3>Ultra</h3><p>Album · 2021</p></div></article>
-      <article><div class="cover"><strong>07</strong></div><div class="info"><h3>Ad vitam æternam</h3><p>Album · 2024</p></div></article>
+      <article><div class="cover"><strong>Boulbi</strong></div><div class="info"><h3>Tout Terrain</h3><p>Album · 2004</p></div></article>
+      <article><div class="cover"><strong>Garde la pêche</strong></div><div class="info"><h3>Ouest Side</h3><p>Album · 2006</p></div></article>
+      <article><div class="cover"><strong>Scarface</strong></div><div class="info"><h3>Autopsie</h3><p>Série · 2005–2017</p></div></article>
+      <article><div class="cover"><strong>Kalash</strong></div><div class="info"><h3>Panthéon</h3><p>Album · 2008</p></div></article>
+      <article><div class="cover"><strong>DKR</strong></div><div class="info"><h3>Futur</h3><p>Album · 2012</p></div></article>
+      <article><div class="cover"><strong>Friday</strong></div><div class="info"><h3>Trône</h3><p>Album · 2017</p></div></article>
+      <article><div class="cover"><strong>Petite fille</strong></div><div class="info"><h3>Ultra</h3><p>Album · 2021</p></div></article>
+      <article><div class="cover"><strong>Mona Lisa</strong></div><div class="info"><h3>Ad vitam æternam</h3><p>Album · 2024</p></div></article>
     </section>
   </main>
   <footer>Site hommage non officiel · Booba Life · Aucun audio protégé n'est hébergé ici</footer>
